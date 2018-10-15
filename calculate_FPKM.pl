@@ -1,8 +1,8 @@
 # !usr/bin/perl -w
-# 2016-05-18
+# 2018-05-18
 # Version 1.01 
 # perl calculate_FPKM.pl All-chrom-L1.fa cmt3C.count.fa cmt-FPKM.fa
-# ∏˘æ›ID¿¥∆•≈‰£¨calculate the FPKM accroding to the number of count°£
+# Ê†πÊçÆIDÊù•ÂåπÈÖçÔºåcalculate the FPKM accroding to the number of count„ÄÇ
 
 use strict;
 @ARGV == 3 or die"\n\tUsage: perl $0 <in_file1> <in_file2> <out_file>\n";
@@ -56,38 +56,4 @@ close IN2;
 close OUT;
 exit;
 
-# Œƒµµ1∏Ò Ω	
-=pod
-564018
-2877430
-3400554
-3888610
-3999157
-4069992
-5058583
-5290582
-6933015
-7272526
 
-=cut
-
-# Œƒµµ2∏Ò Ω£∫
-=pod
-3644180	3647784 AT1G10920
-4140216	4143916 AT1G12210
-4144257	4147939 AT1G12220
-4174875	4178021 AT1G12280
-4177917	4182593 AT1G12290
-5461309	5464241 AT1G15890
-6052936	6058114 AT1G17600
-9433393	9439417 AT1G27170
-9439653	9446223 AT1G27180
-11288378	11293799 AT1G31540
-
-=cut
-
-# ªÚŒƒµµ2∏Ò Ω
-=pod
-10639269	10647280 AT4G19520
-
-=cut
