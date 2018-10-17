@@ -1,8 +1,8 @@
 # !usr/bin/perl -w
 # 2018-10-17
 # Version 1.01
-# ´ÓgtfÎÄ¼şÖĞÌáÈ¡Ä¿±êµÄÎ»µã
-
+# ä»gtfæ–‡ä»¶ä¸­æå–ç›®æ ‡çš„ä½ç‚¹
+# perl extra-locus.pl JA-ID.fa TAIR10.36.gtf JA-locus.fa
  use strict;
  
  open IN1,"<",$ARGV[0] or die; 
@@ -34,13 +34,13 @@
  close IN2;
  close OUT; 
  
- # ÎÄµµ1¸ñÊ½	
+ # æ–‡æ¡£1æ ¼å¼	
 =pod
 AT1G01010
 AT1G01020
 =cut
 
-# ÎÄµµ2¸ñÊ½£º
+# æ–‡æ¡£2æ ¼å¼ï¼š
 =pod
 1	araport11	gene	3631	5899	.	+	.	gene_id "AT1G01010"; gene_name "NAC001"; gene_source "araport11"; gene_biotype "protein_coding";
 1	araport11	transcript	3631	5899	.	+	.	gene_id "AT1G01010"; transcript_id "AT1G01010.1"; gene_name "NAC001"; gene_source "araport11"; gene_biotype "protein_coding"; transcript_source "araport11"; transcript_biotype "protein_coding";
@@ -86,7 +86,7 @@ AT1G01020
 
 =cut
 
-# »òÎÄµµ2¸ñÊ½
+# æˆ–æ–‡æ¡£2æ ¼å¼
 =pod
 AT1G01010	3631	5899
 AT1G01020	6788	9130
